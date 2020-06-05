@@ -1,0 +1,416 @@
+html, body {
+  font-family: 'Poppins', sans-serif;
+  background:#FFC857;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* COMIENZO ESTILOS GENERALES*/
+.contenedor {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: #fd3d4a;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin: 0;
+  color: #ffffff;
+}
+
+footer {
+  background: #fd3d4a;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+fieldset {
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+
+}
+
+fieldset:hover {
+  background-color: #FFB5BC;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+/* COMIENZO ESITLOS INDEX.HTML*/
+.contenedor-login {
+  padding: 10px;
+  background: #FFB5BC;
+  margin:170px auto auto auto;
+  width: 60%;
+}
+
+.contenedor-input {
+  width: 85%;
+  margin-bottom: 10px;
+}
+
+.contenedor-ingreso {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contenedor-registro a {
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.input-login {
+  width: 100%;
+  padding: 2.5px;
+}
+
+.contenedor-button {
+  width: 80%;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contenedor-button button {
+  padding: 2.5px;
+}
+
+/* COMIENZO ESITLOS PRODUCTOS.HTML*/
+.contenedor-producto {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.contenedor-producto-border {
+  border-bottom: 1px solid grey;
+}
+
+.contenedor-imagen {
+  width: 40%;
+}
+
+.contenedor-imagen img {
+  width: 100%;
+}
+
+.contenedor-info {
+ width: 50%;
+}
+
+.contenedor-info h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 85%;
+}
+
+.contenedor-info a {
+  text-decoration: none;
+  font-size: 85%;
+  width: 100%;
+}
+
+/* COMIENZO ESITLOS DETALLE-PRODUCTO.HTML*/
+.titulo-producto {
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.titulo-producto h1 {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.imagen-producto {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 90%
+}
+
+.imagen-producto img {
+  width: 100%;
+}
+
+.lista-detalles-producto ul {
+  width: 90%
+}
+
+.lista-detalles-producto ul {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.precio-producto {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.precio-producto h3 {
+  margin-top: 0;
+}
+
+.boton-compra-producto {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.boton-compra-producto button {
+  padding: 5px;
+}
+
+/* COMIENZO ESITLOS COMPRA.HTML*/
+.detalle-compra {
+    padding-left: 20px;
+}
+
+.detalle-compra h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.detalle-compra h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.detalle-compra h5 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #B6C649;
+}
+
+.contenedor-detalle-compra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.detalle-compra-form {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.contenedor-detalle-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* COMIENZO ESITLOS RECUPERAR CONTRASEÑA.HTML*/
+.fieldset-mail {
+  margin-top: 150px;
+  background: #FFB5BC;
+  padding: 20px;
+  width: 85%;
+}
+
+.contenedor-input {
+  width: 100%;
+}
+
+.contenedor-input input {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contenedor-boton {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.contenedor-boton button {
+  padding: 2.5px;
+  margin-right: 30px;
+}
+
+/* COMIENZO ESITLOS GRACIAS.HTML*/
+.tarjeta-agradecimiento {
+  width: 60%;
+  margin: 170px auto auto auto;
+  background: #FFB5BC;
+  padding: 10px;
+}
+
+.tarjeta-agradecimiento h1 {
+  color: black;
+}
+
+.tarjeta-agradecimiento a {
+  text-decoration: none;
+}
+
+.tarjeta-confirmacion-mail {
+  width: 60%;
+  margin: 170px auto auto auto;
+  background: #FFB5BC;
+  padding: 10px;
+}
+
+.tarjeta-confirmacion-mail h1 {
+  color: black;
+}
+
+.tarjeta-confirmacion-mail a {
+  text-decoration: none;
+}
+
+/* COMIENZO ESITLOS REGISTRARSE.HTML*/
+.contenedor-detalle-registro {
+  background: #FD5843;
+
+}
+
+.registrarse-button {
+  justify-content: flex-end;
+}
+
+/* COMIENZO ESITLOS CHECKOUT.HTML*/
+.checkout-button {
+  margin-top: 15px;
+  justify-content: flex-end;
+}
+
+.checkout-fieldset {
+  margin-bottom: 20px;
+}
+
+/* COMIENZO MEDIA QUERY PARA PANTALLAS DE MAS DE 1024px*/
+@media screen and (min-width: 1024px) {
+  .contenedor {
+    width: 70%;
+  }
+
+  .contenedor-login {
+    width: 30%;
+  }
+
+  .fieldset-mail {
+    width: 30%;
+  }
+
+  .contenedor-detalle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+  .contenedor-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+  }
+
+  .contenedor-info h1 {
+    margin-bottom: 12px;
+    font-size: 150%;
+  }
+
+  .contenedor-info a {
+    font-size: 150%;
+  }
+
+  legend {
+    font-size: 150%;
+  }
+
+  .contenedor-info {
+    width: 40%;
+   }
+
+}
+
+/*COMIENZO DE MEDIA QUERIES PARA PANTALLAS ENTRE 768PX Y 1024PX*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .tarjeta-agradecimiento {
+   margin: 400px auto auto auto;
+  }
+
+  .contenedor-login {
+    margin:400px auto auto auto;
+  }
+
+  .fieldset-mail {
+    width: 60%;
+    margin:250px auto auto auto;
+  }
+
+  .tarjeta-confirmacion-mail {
+    margin:400px auto auto auto;
+  }
+
+  .contenedor-info {
+    width: 40%;
+   }
+
+   .contenedor-info h1 {
+     margin-bottom: 12px;
+     font-size: 150%;
+   }
+
+   .contenedor-info a {
+     font-size: 150%;
+   }
+
+   legend {
+     font-size: 150%;
+   }
+}
+
+/*COMIENZO DE MEDIA QUERIES PARA PANTALLAS ENTRE 768PX Y 1024PX EN MODO LANDSCAPE*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .tarjeta-agradecimiento {
+    margin: 250px auto auto auto;
+
+   }
+
+   .contenedor-login {
+     margin:250px auto auto auto;
+
+   }
+
+    .tarjeta-confirmacion-mail {
+     margin: 250px auto auto auto;
+   }
+}
+

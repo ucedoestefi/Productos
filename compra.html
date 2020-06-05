@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" type="text/css" media="screen" href="estilos/estilos.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+      <title>Comprar</title>
+  </head>
+  <body>
+    <header>
+      <h1>Realizar una compra</h1>
+    </header>
+
+      <fieldset class="contenedor">
+
+        <div class="titulo-producto">
+          <h1>Joystick ps4</h1>
+        </div>
+
+        <div class="contenedor-detalle-compra">
+          <div class="imagen-producto">
+            <img src="img/joystick-ps4.png">
+          </div>
+
+      <div class="contenedor-detalle-info">
+
+          <div class="contenedor-informacion-compra">
+              <div class="detalle-compra">
+                <h3>Pagá en hasta 12 cuotas</h3>
+                <h4>Envío a todo el país</h4>
+                <h4>Devolución gratis</h4>
+                <h5>Tenés 10 días desde que lo recibís</h5>
+            <form class="detalle-compra-form" action="checkout.html" method="post">
+
+            <div class="contenedor-color">
+              <div>
+                <label for="cantidad">Cantidad</label>
+                <select name="cantidad">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+            </div>
+            
+            <div>
+              <label for="">Color</label>
+                <input type="color" name="color" >
+            </div>
+            
+            <div class="precio-producto">
+              <h4>Subtotal: U$S 2500</h3>
+            </div>
+          
+            <div class="boton-compra-producto">
+              <button>Checkout</button>
+            </div>
+          </div>
+            </form>
+        </div>
+      </div>
+      </fieldset>
+    </form>
+  </body>
+  <footer class="fixed">
+    <a href="index.html">Pagina de inicio</a>
+  </footer>
+</html>

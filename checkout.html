@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos/estilos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <title>Checkout</title>
+</head>
+<body>
+    <header>
+        <h1>Pagina de checkout</h1>
+    </header>
+    <form action="pagina-agradecimiento.html" method="post">
+    <fieldset class="contenedor checkout-fieldset">
+        <legend>Complete los datos</legend>
+
+        <div class="contenedor-input">
+            <input class="input-login" placeholder="Nombre" name="NOMBRE" type="text"/>
+        </div>
+
+        <div class="contenedor-input">
+            <input class="input-login" placeholder="Apellido" name="APELLIDO" type="text"/>
+        </div>
+
+        <div class="contenedor-input">
+            <input class="input-login" placeholder="DNI"  name="DNI" type="text" size="10" maxlength="9" />
+        </div>
+
+        <div class="contenedor-input">
+            <input class="input-login" placeholder="Mail" name="MAIL" type="text"/>
+        </div>
+
+        <div class="contenedor-input">
+            <input class="input-login" placeholder="Telefono" name="telefono" type="number"/>
+        </div>
+    </fieldset>
+
+    <fieldset class="contenedor checkout-fieldset">
+        <legend>Seleccione una forma de envio</legend>
+        <label for="envio">Seleccionar</label>
+            <select name="envio">
+                <option value="seleccionar">Seleccionar...</option>
+                <option value="Moto">Moto</option>
+                <option value="Correo-retiro en sucursal">Correo. Retiro en sucursal</option>
+                <option value="correo-envio a domicilio">Correo. Envio a domicilio</option>
+                <option value="retiro en domicilio del vendedor">Retiro en domicilio del vendedor</option>
+            </select>
+    </fieldset>
+
+    <fieldset class="contenedor">
+            <legend>¿Cómo pagás?</legend>
+
+        <div class="contenedor-imagen">
+                <img src="img/pago.jpg" alt="">
+            </div>
+
+                <div class="contenedor-input">
+                    <input class="input-login" name="titular" placeholder="Titular" type="text">
+                </div>
+
+                <div class="contenedor-input">
+                    <input class="input-login" name="numero" placeholder="Numero" type="text">
+                </div>
+
+                <div class="contenedor-input">
+                    <input class="input-login" name="codigo_de_seguridad" placeholder="Codigo de Seguridad" type="number">
+                </div>
+
+                <div class="contenedor-input">
+                    <input class="input-login" name="fecha de vencimiento" placeholder="Fecha de vencimiento"
+                    type="date"/>
+                </div>
+    </fieldset>
+
+    <div class="contenedor-button checkout-button">
+        <button>Confirmar compra</button>
+    </div>
+    </form>
+</body>
+
+<footer class="fixed">
+    <a href="index.html">Pagina de inicio</a>
+</footer>
+</html>
